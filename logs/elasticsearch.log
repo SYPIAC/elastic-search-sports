@@ -1,0 +1,136 @@
+[2016-04-17 11:50:40,840][INFO ][node                     ] [Ogre] version[2.3.1], pid[7424], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 11:50:40,847][INFO ][node                     ] [Ogre] initializing ...
+[2016-04-17 11:50:44,268][INFO ][plugins                  ] [Ogre] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 11:50:44,463][INFO ][env                      ] [Ogre] using [1] data paths, mounts [[/ (/dev/sda7)]], net usable_space [2.5gb], net total_space [46.5gb], spins? [possibly], types [ext4]
+[2016-04-17 11:50:44,464][INFO ][env                      ] [Ogre] heap size [1011.2mb], compressed ordinary object pointers [unknown]
+[2016-04-17 11:50:44,465][WARN ][env                      ] [Ogre] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-04-17 11:50:56,096][INFO ][node                     ] [Ogre] initialized
+[2016-04-17 11:50:56,097][INFO ][node                     ] [Ogre] starting ...
+[2016-04-17 11:50:56,810][INFO ][transport                ] [Ogre] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-04-17 11:50:56,902][INFO ][discovery                ] [Ogre] elasticsearch/-YkosOZwTv6PTs0k1GtWjw
+[2016-04-17 11:51:00,216][INFO ][cluster.service          ] [Ogre] new_master {Ogre}{-YkosOZwTv6PTs0k1GtWjw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 11:51:00,300][INFO ][http                     ] [Ogre] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-04-17 11:51:00,301][INFO ][node                     ] [Ogre] started
+[2016-04-17 11:51:00,697][INFO ][gateway                  ] [Ogre] recovered [0] indices into cluster_state
+[2016-04-17 11:51:30,278][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:51:30,280][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 11:52:00,324][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:52:30,331][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:52:30,331][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 11:53:00,342][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:53:30,346][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:53:30,347][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 11:54:00,357][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:54:30,361][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:54:30,362][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 11:55:00,367][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:55:30,370][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:55:30,371][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 11:56:00,376][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:56:30,378][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:56:30,379][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 11:57:00,383][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:57:30,390][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:57:30,391][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 11:58:00,395][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:58:30,398][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:58:30,398][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 11:59:00,403][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:59:30,406][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 11:59:30,407][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:00:00,418][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:00:30,422][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:00:30,423][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:01:00,428][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:01:30,430][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:01:30,431][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:02:00,435][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:02:30,438][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:02:30,440][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:03:00,445][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:03:30,449][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:03:30,450][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:04:00,453][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:04:30,457][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:04:30,458][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:05:00,465][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:05:30,471][WARN ][cluster.routing.allocation.decider] [Ogre] high disk watermark [90%] exceeded on [-YkosOZwTv6PTs0k1GtWjw][Ogre][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:05:30,472][INFO ][cluster.routing.allocation.decider] [Ogre] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:05:54,369][INFO ][node                     ] [Ogre] stopping ...
+[2016-04-17 12:05:54,450][INFO ][node                     ] [Ogre] stopped
+[2016-04-17 12:05:54,451][INFO ][node                     ] [Ogre] closing ...
+[2016-04-17 12:05:54,496][INFO ][node                     ] [Ogre] closed
+[2016-04-17 12:06:00,306][INFO ][node                     ] [Forgotten One] version[2.3.1], pid[8827], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 12:06:00,310][INFO ][node                     ] [Forgotten One] initializing ...
+[2016-04-17 12:06:03,873][INFO ][plugins                  ] [Forgotten One] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 12:06:03,985][INFO ][env                      ] [Forgotten One] using [1] data paths, mounts [[/ (/dev/sda7)]], net usable_space [2.5gb], net total_space [46.5gb], spins? [possibly], types [ext4]
+[2016-04-17 12:06:03,986][INFO ][env                      ] [Forgotten One] heap size [1011.2mb], compressed ordinary object pointers [unknown]
+[2016-04-17 12:06:03,987][WARN ][env                      ] [Forgotten One] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-04-17 12:06:15,213][INFO ][node                     ] [Forgotten One] initialized
+[2016-04-17 12:06:15,214][INFO ][node                     ] [Forgotten One] starting ...
+[2016-04-17 12:06:15,835][INFO ][transport                ] [Forgotten One] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-04-17 12:06:15,874][INFO ][discovery                ] [Forgotten One] elasticsearch/xPG2C_fFSyiPKQO5antFqQ
+[2016-04-17 12:06:19,206][INFO ][cluster.service          ] [Forgotten One] new_master {Forgotten One}{xPG2C_fFSyiPKQO5antFqQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 12:06:19,425][INFO ][http                     ] [Forgotten One] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-04-17 12:06:19,427][INFO ][node                     ] [Forgotten One] started
+[2016-04-17 12:06:19,866][INFO ][gateway                  ] [Forgotten One] recovered [0] indices into cluster_state
+[2016-04-17 12:06:49,275][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:06:49,278][INFO ][cluster.routing.allocation.decider] [Forgotten One] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:07:19,329][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:07:49,336][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:07:49,337][INFO ][cluster.routing.allocation.decider] [Forgotten One] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:08:19,341][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:08:49,344][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:08:49,345][INFO ][cluster.routing.allocation.decider] [Forgotten One] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:09:19,348][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:09:49,352][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:09:49,353][INFO ][cluster.routing.allocation.decider] [Forgotten One] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:10:19,363][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:10:49,365][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:10:49,366][INFO ][cluster.routing.allocation.decider] [Forgotten One] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:11:19,371][WARN ][cluster.routing.allocation.decider] [Forgotten One] high disk watermark [90%] exceeded on [xPG2C_fFSyiPKQO5antFqQ][Forgotten One][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:11:20,726][INFO ][node                     ] [Forgotten One] stopping ...
+[2016-04-17 12:11:20,798][INFO ][node                     ] [Forgotten One] stopped
+[2016-04-17 12:11:20,798][INFO ][node                     ] [Forgotten One] closing ...
+[2016-04-17 12:11:20,861][INFO ][node                     ] [Forgotten One] closed
+[2016-04-17 12:11:26,343][INFO ][node                     ] [Nova-Prime] version[2.3.1], pid[9043], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 12:11:26,348][INFO ][node                     ] [Nova-Prime] initializing ...
+[2016-04-17 12:11:29,735][INFO ][plugins                  ] [Nova-Prime] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 12:11:29,867][INFO ][env                      ] [Nova-Prime] using [1] data paths, mounts [[/ (/dev/sda7)]], net usable_space [2.5gb], net total_space [46.5gb], spins? [possibly], types [ext4]
+[2016-04-17 12:11:29,868][INFO ][env                      ] [Nova-Prime] heap size [1011.2mb], compressed ordinary object pointers [unknown]
+[2016-04-17 12:11:29,869][WARN ][env                      ] [Nova-Prime] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-04-17 12:11:41,127][INFO ][node                     ] [Nova-Prime] initialized
+[2016-04-17 12:11:41,134][INFO ][node                     ] [Nova-Prime] starting ...
+[2016-04-17 12:11:41,747][INFO ][transport                ] [Nova-Prime] publish_address {192.168.1.102:9300}, bound_addresses {[::]:9300}
+[2016-04-17 12:11:41,801][INFO ][discovery                ] [Nova-Prime] elasticsearch/YgwUssG8T7S6XA2wXcDvSQ
+[2016-04-17 12:11:45,278][INFO ][cluster.service          ] [Nova-Prime] new_master {Nova-Prime}{YgwUssG8T7S6XA2wXcDvSQ}{192.168.1.102}{192.168.1.102:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 12:11:45,495][INFO ][http                     ] [Nova-Prime] publish_address {192.168.1.102:9200}, bound_addresses {[::]:9200}
+[2016-04-17 12:11:45,496][INFO ][node                     ] [Nova-Prime] started
+[2016-04-17 12:11:45,657][INFO ][gateway                  ] [Nova-Prime] recovered [0] indices into cluster_state
+[2016-04-17 12:12:15,333][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:12:15,335][INFO ][cluster.routing.allocation.decider] [Nova-Prime] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:12:45,399][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:13:15,404][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:13:15,405][INFO ][cluster.routing.allocation.decider] [Nova-Prime] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:13:45,411][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:14:15,414][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:14:15,415][INFO ][cluster.routing.allocation.decider] [Nova-Prime] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:14:45,424][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:15:15,428][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:15:15,429][INFO ][cluster.routing.allocation.decider] [Nova-Prime] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:15:45,433][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:16:15,445][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:16:15,446][INFO ][cluster.routing.allocation.decider] [Nova-Prime] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:16:45,455][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:17:15,463][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:17:15,464][INFO ][cluster.routing.allocation.decider] [Nova-Prime] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:17:45,469][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:18:15,478][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:18:15,479][INFO ][cluster.routing.allocation.decider] [Nova-Prime] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:18:45,483][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:19:15,486][WARN ][cluster.routing.allocation.decider] [Nova-Prime] high disk watermark [90%] exceeded on [YgwUssG8T7S6XA2wXcDvSQ][Nova-Prime][/home/danil/elasticsearch/data/elasticsearch/nodes/0] free: 2.5gb[5.5%], shards will be relocated away from this node
+[2016-04-17 12:19:15,487][INFO ][cluster.routing.allocation.decider] [Nova-Prime] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-17 12:19:38,167][INFO ][node                     ] [Nova-Prime] stopping ...
+[2016-04-17 12:19:38,243][INFO ][node                     ] [Nova-Prime] stopped
+[2016-04-17 12:19:38,243][INFO ][node                     ] [Nova-Prime] closing ...
+[2016-04-17 12:19:38,285][INFO ][node                     ] [Nova-Prime] closed
